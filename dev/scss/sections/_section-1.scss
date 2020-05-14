@@ -1,9 +1,20 @@
 /* =============
     Section 1
 ============= */
+
 #section-1{
-    .grid-content{
-        
+    height: 799px
+    background-image: url('../img/section-1/main-slide-21.jpg');
+    background-position: center;
+    background-size: cover;
+    color: $white;
+
+    @include md {
+        height: 694px;
+    }
+
+    @include xl{
+        height: 959px;
     }
 
 }
