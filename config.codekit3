@@ -9,16 +9,6 @@
 	],
 "creatorBuild": "32147",
 "files": {
-	"/deploy/css/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/deploy/css/styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"/deploy/img/section-1/main_slide_21.jpg": {
 		"ft": 16384,
 		"iS": 1423110,
@@ -41,34 +31,34 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-3/2342441.jpg": {
-		"ft": 16384,
-		"iS": 152155,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/section-3/2342441.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/section-3/4441.jpg": {
-		"ft": 16384,
-		"iS": 139189,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/section-3/4441.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/section-3/Letterpress-Perspective-B-Cards-MockUp-6001.jpg": {
+	"/deploy/img/section-3/cards.jpg": {
 		"ft": 16384,
 		"iS": 84293,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/section-3/Letterpress-Perspective-B-Cards-MockUp-6001.jpg",
+		"oAP": "/deploy/img/section-3/cards.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-3/pile.jpg": {
+		"ft": 16384,
+		"iS": 152155,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-3/pile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-3/sign.jpg": {
+		"ft": 16384,
+		"iS": 139189,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-3/sign.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -93,17 +83,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/design/assets/2342441.jpg": {
-		"ft": 16384,
-		"iS": 152155,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/design/assets/2342441.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/design/assets/4141.jpg": {
 		"ft": 16384,
 		"iS": 104961,
@@ -115,23 +94,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/design/assets/4441.jpg": {
-		"ft": 16384,
-		"iS": 139189,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/design/assets/4441.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/design/assets/Letterpress-Perspective-B-Cards-MockUp-6001.jpg": {
+	"/design/assets/cards.jpg": {
 		"ft": 16384,
 		"iS": 84293,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/design/assets/Letterpress-Perspective-B-Cards-MockUp-6001.jpg",
+		"oAP": "/design/assets/cards.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -143,6 +111,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/design/assets/main_slide_21.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/design/assets/pile.jpg": {
+		"ft": 16384,
+		"iS": 152155,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/design/assets/pile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/design/assets/sign.jpg": {
+		"ft": 16384,
+		"iS": 139189,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/design/assets/sign.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -322,9 +312,9 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_section-1.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
-		"sct": 0
+		"sct": 1
 		},
 	"/dev/scss/sections/_section-2.scss": {
 		"aP": 0,
@@ -335,9 +325,9 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_section-2.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
-		"sct": 0
+		"sct": 1
 		},
 	"/dev/scss/sections/_section-3.scss": {
 		"aP": 0,
@@ -348,9 +338,9 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_section-3.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
-		"sct": 0
+		"sct": 1
 		},
 	"/dev/scss/sections/styles.scss": {
 		"aP": 0,
@@ -363,7 +353,7 @@
 		"oAP": "/deploy/styles.css",
 		"oF": 3,
 		"oS": 0,
-		"sct": 0
+		"sct": 1
 		},
 	"/dev/section-1.kit": {
 		"cB": 0,

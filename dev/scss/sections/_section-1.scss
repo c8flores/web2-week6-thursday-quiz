@@ -3,7 +3,7 @@
 ============= */
 
 #section-1{
-    height: 799px
+    height: 799px;
     background-image: url('../img/section-1/main-slide-21.jpg');
     background-position: center;
     background-size: cover;
@@ -16,5 +16,4 @@
     @include xl{
         height: 959px;
     }
-
 }

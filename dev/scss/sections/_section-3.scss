@@ -2,8 +2,56 @@
     Section 1
 ============= */
 #section-1{
-    .grid-content{
-        
+    
+    @include xl{
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". section-5 .";
     }
 
+    ul{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-rows: repeat (3, 296px);
+
+        @include md{
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 340px);
+            grid-template-areas: 
+            "sign sign"
+            "sign sign"
+            "cards pile";
+        }
+
+        @include xl{
+            grid-area: section-3;
+        }
+
+        li{
+            background-position: center;
+            background-size: cover;
+        }
+
+        #sign{
+            background-image: url("../img/section-3/sign.jpg");
+            @include md{
+                grid-area: boy;
+                background-position: left;
+            }
+        }
+
+        #cards{
+            background-image: url("../img/section-3/cards.jpg");
+            @include md{
+                grid-area: cards;
+            }
+        }
+        
+        #pile{
+            background-image: url("../img/section-3/pile.jpg");
+            @include md{
+                grid-area: pile;
+            }
+        }
+    }
 }
